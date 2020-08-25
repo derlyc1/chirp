@@ -9,6 +9,7 @@
     "node": "12.18.x"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.5.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -21,17 +22,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  },
-  "description": "Sample App for Nodejs YYC program",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/derlyc1/chirp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/derlyc1/chirp/issues"
-  },
-  "homepage": "https://github.com/derlyc1/chirp#readme"
+  }
 }
